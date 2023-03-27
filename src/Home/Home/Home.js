@@ -14,7 +14,6 @@ const Home = () => {
             <Banner></Banner>
             <Info></Info>
             <Services></Services>
-            {/* <Exceptional></Exceptional> */}
             <MakeAppointment></MakeAppointment>
             <Testtimonial></Testtimonial>
             <Login></Login>

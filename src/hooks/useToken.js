@@ -9,7 +9,7 @@ const useToken = user => {
         // console.log(email)
         const currentUser = { email: email }
         if (email) {
-            fetch(`http://localhost:5000/user/${email}`, {
+            fetch(`https://doctors-portal-server-okn8.onrender.com/user/${email}`, {
                 method: 'PUT',
                 headers: {
                     'content-type': 'application/json'
